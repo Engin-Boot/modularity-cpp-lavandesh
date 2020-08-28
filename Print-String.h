@@ -3,10 +3,11 @@ namespace TelCoColorCoder
 {
   void ToString()
   {
-    string manual="";
+    std::string manual="";
     for (int i = 0; i<26; i++)
     {
-      manual += GetColorFromPairNumber(i).Tostring();
+      manual += GetColorFromPairNumber(i).ToString();
     }
-    cout << manual << endl;
+    std::cout << manual << std::endl;
+  }
 }
